@@ -1,0 +1,101 @@
+/* Enable full-height flex layout so footer stays at bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+/* Container uses flexbox to push footer down */
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;    /* evenly space brand + links */
+    align-items: center;                /* center vertically */
+    padding: 14px 28px;                 /* accurate spacing like screenshot */
+    border: 1px solid #e5e7eb;
+    border-radius: 2rem;                /* smoother curve */
+                  /* matches screenshot width */
+    margin: 20px auto;   
+    column-gap: 25rem;               /* centers navbar */
+}
+
+/* Brand text styling */
+.one{
+    font-weight: 800;        /* heavier like screenshot */
+    font-size: 48px;
+    line-height: 1.1;        /* tighter spacing */
+}
+
+/* Navigation list */
+.link nav{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    column-gap: 2rem;
+}
+
+/* Nav Links */
+nav li a{
+    text-decoration: none;
+    color:#6b7280;        /* softer gray */
+    font-weight: 500;     /* slight bold for clarity */
+}
+
+/* Active "Home" underline */
+nav li:first-child a {
+     /* purple underline */
+    padding-bottom: 3px;
+}
+
+/* HERO SECTION */
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+       /* move hero downward like screenshot */
+}
+
+/* Subtitle text */
+.two{
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    text-align: center;
+    color: #6b7280;         /* improved gray */
+}
+
+/* Get Started button */
+button{
+    padding: 12px 24px;      /* more balanced padding */
+    border-radius: .5rem;
+    background-color: #ede9fe;   /* exact lavender color */
+    font-size: 16px;
+    font-weight: 600;        /* bolder for clarity */
+    border: none;            /* remove browser border */
+}
+
+/* Footer section */
+
+.f{
+   
+   position: fixed;
+   width: 100%;
+   text-align: center;
+   left: 0;
+  bottom: 0;
+  padding: 20px;
+   
+
+}
