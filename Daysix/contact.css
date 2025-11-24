@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;    /* evenly space brand + links */
+    align-items: center;                /* center vertically */
+    padding: 14px 28px;                 /* accurate spacing like screenshot */
+    border: 1px solid #e5e7eb;
+    border-radius: 2rem;                /* smoother curve */
+                  /* matches screenshot width */
+    margin: 20px auto;   
+    column-gap: 25rem;               /* centers navbar */
+}
+.one{
+    font-weight: 800;        /* heavier like screenshot */
+    font-size: 48px;
+    line-height: 1.1;        /* tighter spacing */
+}
+.link nav{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    column-gap: 2rem;
+}
+
+/* Nav Links */
+nav li a{
+    text-decoration: none;
+    color:#6b7280;        /* softer gray */
+    font-weight: 500;     /* slight bold for clarity */
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+  
+    
+    
+    width:450px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+   
+}
+.f{
+   
+   position: fixed;
+   width: 100%;
+   text-align: center;
+   left: 0;
+  bottom: 0;
+  padding: 20px;
+  align-self: center;
+   
+
+}
+.get{
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.we{
+    text-align: center;
+    color: #b1b5bc;
+}
+.label{
+    border:1px solid #e7e8ec;
+    border-radius: 5px;
+
+}
+.height{
+    height: 25px;
+
+
+}
