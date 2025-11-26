@@ -1,0 +1,79 @@
+BASIC GIT COMMANDS — WHAT THEY ARE AND WHY THEY ARE USED
+
+git init
+
+	What it is: Initializes a brand-new Git repository inside a folder.
+
+	Why it is used: To start tracking versions of your project locally.
+
+git clone <url>
+
+	What it is: Creates a local copy of an existing remote repository.
+
+	Why it is used: To download the project to your system and start working on it.
+
+git add <files>
+
+	What it is: Stages changes (marks files to be included in the next commit).
+
+	Why it is used: Git will only save/commit files that are staged with "git add".
+
+git commit -m "message"
+
+	What it is: Takes a snapshot of all staged changes.
+
+	Why it is used: Saves your work to the project history with a message.
+
+git status
+
+	What it is: Shows current status (untracked, modified, staged files).
+
+	Why it is used: To check what has changed before committing.
+
+git branch
+
+	What it is: Shows all branches in your local repository.
+
+	Why it is used: To know what branch you're on and what branches exist.
+
+git branch <branch-name>
+
+	What it is: Creates a new branch.
+
+	Why it is used: To work on a new feature without affecting the main code.
+
+git checkout <branch-name>
+
+	What it is: Switches to a different branch.
+
+	Why it is used: To work on the code of that branch.
+
+git merge <branch>
+
+	What it is: Combines the specified branch into your current branch.
+
+	Why it is used: To integrate feature code back into main or another branch.
+
+git pull
+
+	What it is: Downloads new commits from remote and updates your local branch.
+
+	Why it is used: To get latest updates if someone else has pushed changes.
+
+git push
+
+	What it is: Uploads your commits to the remote repository.
+
+	Why it is used: To share your work with others or update GitHub.
+
+git remote add origin <url>
+
+	What it is: Connects your local project to a GitHub repository.
+
+	Why it is used: Needed before pushing your code for the first time.
+
+git log
+
+	What it is: Shows commit history.
+
+	Why it is used: To view past commits and track changes.
