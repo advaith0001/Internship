@@ -1,0 +1,5 @@
+Python is a high-level programming language. It is used for web development, data science, automation, and AI.
+
+RAG stands for Retrieval Augmented Generation. It is a technique where an LLM retrieves relevant text chunks from a database or document and uses them to produce accurate answers.
+
+Machine learning is a subset of AI that allows computers to learn from data without explicit programming.
