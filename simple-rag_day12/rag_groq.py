@@ -24,7 +24,10 @@ db = Chroma.from_documents(chunks, embeddings)
 
 # 4. Initialize Groq LLM (FIXED)
 client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")   
+ 
+
+    api_key=os.getenv("GROQ_API_KEY") 
+
 )
 
 # 5. Ask user
